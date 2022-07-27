@@ -10,4 +10,14 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Clone the repo on github to your local machine
+
+Download and install Docker for Linux, Windows or Mac
+
+Check that docker and docker-compose are installed with the commands 'docker -v' and 'docker-compose -v'
+
+run docker from within the repo directory directory (where the .yml file resides) by using the 'docker-compose up' command
+
+If all went well, the docker containers should be running and they should be accessible. Verify with http://localhost:3000/api/ping
+
+Navigate to http://localhost:3001/register and create a user
